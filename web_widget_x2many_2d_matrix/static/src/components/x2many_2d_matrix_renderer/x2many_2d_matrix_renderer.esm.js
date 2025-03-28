@@ -171,11 +171,6 @@ export class X2Many2DMatrixRenderer extends Component {
             readonly: this.props.readonly,
             record: record,
             name: this.matrixFields.value,
-            canCreate: this.props.canCreate,
-            canOpen: this.props.canOpen,
-            canWrite: this.props.canWrite,
-            canQuickCreate: this.props.canQuickCreate,
-            canCreateEdit: this.props.canCreateEdit,
         };
         if (record) {
             const domain = record.fields[this.matrixFields.value].domain;
