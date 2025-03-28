@@ -9,11 +9,6 @@
                 showColumnTotals="props.showColumnTotals"
                 readonly="props.readonly"
                 domain="props.domain"
-                canOpen="props.canOpen"
-                canCreate="props.canCreate"
-                canWrite="props.canWrite"
-                canQuickCreate="props.canQuickCreate"
-                canCreateEdit="props.canCreateEdit"
                 x2mListColumns="props.x2mListColumns"
             />
         </div>
